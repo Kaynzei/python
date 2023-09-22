@@ -23,7 +23,7 @@ kanayo(school)
 
 #another way of using function
 def greet_function(name, age):
-    print('welcome '+name+ '. you are ' +str(age)+ ' years old.')
+    print(f"welcome {name} '. you are  {age} years old.")
 
 greet_function(name= 'john', age=27)
 
@@ -34,3 +34,7 @@ def add_number(num1,num2):
 num1 = int(input('enter the first number: ')) #if you dont convert it, python will see it as string and just appose them
 num2 = int(input('enter the second number: '))
 print(add_number(num1, num2))
+
+
+#difference between function parameter and argument. parameter is the variable declared inside the function,
+# argument is the provided value of that variable.
